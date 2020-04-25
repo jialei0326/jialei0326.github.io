@@ -1,0 +1,52 @@
+
+.topmenu{
+    height: 50px;
+    width: 100%;
+    background-color: dodgerblue;
+}
+.topmenu div{
+    display: inline;
+    vertical-align: middle;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border-left: 1px solid white;
+    background-color: dodgerblue;
+}
+.hello{
+    right: 80px;
+}
+
+.productNumber{
+    grid-area: product-number;
+    width: 100%;
+}
+.quantity{
+    grid-area: quantity;
+}
+.name{
+    grid-area: name;
+}
+.supplier{
+    grid-area: supplier;
+}
+.price{
+    grid-area: price;
+}
+.date{
+    grid-area: date;
+}
+
+.container2{
+    width: 100%;
+    display: grid;
+    /*grid-template-columns: 600px 600px auto;*/
+    /*grid-template-rows: 80px;*/
+    /*grid-gap: 10px;*/
+    grid-template-areas: 'product-number product-number quantity quantity'
+                         'name name supplier supplier'
+                         'price price date date';
+}
+.buttons{
+    float: right;
+}

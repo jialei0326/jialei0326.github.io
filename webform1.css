@@ -1,0 +1,22 @@
+.email{
+    margin: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.not_share{
+    font-size: 18px;
+    color: gray;
+}
+.pwd{
+    margin: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.submit{
+    margin: 10px 50px;
+    background: blue;
+    color: white;
+}
+.checkbox{
+    left: 150px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web form2</title>
+    <link href="webform2.css" rel="stylesheet">
+</head>
+<body>
+    <div class="topmenu">
+        <div class="system">MUM Golden Dome Market:::SRM System</div>
+        <div class="product-label">Products</div>
+        <div class="supplier-label">Suppliers</div>
+        <div>
+            <div class="hello">Hello!</div>
+            <input class="signout" type="submit" name="signout" value="Sign out">
+        </div>
+    </div>
+
+    <div class="title">New Product Form</div>
+
+    <div class="container2">
+        <div class="productNumber">
+            <p>Product Number</p>
+            <input type="text" name="product-number">
+        </div>
+
+        <div class="quantity">
+            <p>Quantity in stock</p>
+            <input type="text" name="stock">
+        </div>
+
+        <div class="name">
+            <p>Name</p>
+            <input type="text" name="name">
+        </div>
+
+        <div class="supplier">
+            <p>Suppliers</p>
+            <select name="suppliers">
+                <option>Supplier1</option>
+                <option>Supplier2</option>
+                <option>Supplier3</option>
+                <option>Supplier4</option>
+            </select>
+        </div>
+
+        <div class="price">
+            <p>Unit Price</p>
+            <input type="text" name="price" value="0.0">
+        </div>
+
+        <div class="date">
+            <p>Date supplied</p>
+            <input type="date" name="date" value="yyyy-mm-dd">
+            <p style="font-size: small; color: gray">Enter a valid date.</p>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <input type="reset" value="Reset">
+        <input type="button" value="Cancel">
+        <input type="submit" value="Add Product">
+    </div>
+</body>
+</html>
