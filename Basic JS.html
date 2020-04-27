@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic JS</title>
+    <script src="Basic%20JS.js"></script>
+</head>
+<body>
+<!--Number 2:-->
+    <div>
+        <h2>Input two different numbers return the maximum.</h2>
+        <div>
+            <em>Number1:</em>
+            <input id="n1" type="text" name="n1">
+        </div>
+        <div>
+            <em>Number2:</em>
+            <input id="n2" type="text" name="n2">
+        </div>
+        <div>
+            <em>Max:</em>
+            <input id="max" type="text" name="max">
+        </div>
+
+        <button onclick="max();">Click me!</button>
+    </div>
+
+    <hr />
+<!--Number 3:-->
+    <div>
+        <h2>Input three numbers return the maximum.</h2>
+        <div>
+            <label>Number 1:</label>
+            <input id="3_n1" type="text" name="n1">
+        </div>
+        <div>
+            <label>Number 2:</label>
+            <input id="3_n2" type="text" name="n2">
+        </div>
+        <div>
+            <label>Number 3:</label>
+            <input id="3_n3" type="text" name="n3">
+        </div>
+        <div>
+            <label>Max:</label>
+            <input id="3_max" type="text" name="max">
+        </div>
+        <button onclick="maxOfThree();">Click me!</button>
+    </div>
+
+    <hr/>
+<!--Number 4:-->
+    <div>
+        <h2>Input a letter return if it is a vowel.</h2>
+        <div>
+            <label>A letter:</label>
+            <input id="letter" type="text" name="s">
+        </div>
+        <p id="isvowel">?</p>
+        <button onclick="isVowel();">Vowel?</button>
+    </div>
+
+    <hr/>
+<!--Number 5:-->
+    <div>
+        <h2>Input a array, return the sum and multiple.</h2>
+        <label>Input number:</label>
+        <input type="text" id="input_array" name="array">
+        <button onclick="add();">Add</button>
+        <p>Sum:</p>
+        <span id="sum"></span>
+        <p>Multiple:</p>
+        <span id="mul"></span>
+        <button onclick="calculate();">Calculate!</button>
+    </div>
+    <hr/>
+<!--Number 6:-->
+    <div>
+        <h2>Input a string return reverse one.</h2>
+        <label>Input string:</label>
+        <input id="reverse" type="text">
+        <button onclick="reverse();">Reverse</button>
+        <p id="reverse_result"></p>
+    </div>
+<hr/>
+<!--Number 7:-->
+    <div>
+        <h2>Input a words return the longest one.(Split by space.)</h2>
+        <label>Input string:</label>
+        <input id="words" type="text" style="width: 100%">
+        <button onclick="findLongestWord();">Find!</button>
+        <p id="longestWord"></p>
+    </div>
+<!--Number 8:-->
+    <div>
+        <h2>Input words and length return the words longer than length.</h2>
+        <label>Input string:</label>
+        <input id="8_words" type="text" style="width: 100%">
+        <label>Input length:</label>
+        <input id="len" type="number">
+        <button onclick="filterLongWords();">Find!</button>
+        <p id="longer"></p>
+    </div>
+<!--Number 9:-->
+    <div>
+        <h2>Input an array of numbers return calculation.(Split by ",")</h2>
+        <label>Input array:</label>
+        <input id="array" type="text" style="width: 100%">
+        <label>Results:</label>
+        <p id="multiple"></p>
+        <p id="filter"></p>
+        <p id="reduce"></p>
+        <button onclick="map();">Let's map!</button>
+    </div>
+</body>
+</html>
